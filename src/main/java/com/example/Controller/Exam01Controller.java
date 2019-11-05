@@ -1,7 +1,6 @@
 package com.example.Controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.stereotype.Repository;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -9,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.example.Form.Exam01Form;
 
 @Controller
-@Repository("/exam01")
+@RequestMapping("/ex-01")
 
 public class Exam01Controller {
 

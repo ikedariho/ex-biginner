@@ -1,7 +1,7 @@
 package com.example.Form;
 
 public class Exam01Form {
-	
+
 	private String name;
 
 	public String getName() {
@@ -17,7 +17,5 @@ public class Exam01Form {
 		return "exam01Form [name=" + name + ", getName()=" + getName() + ", getClass()=" + getClass() + ", hashCode()="
 				+ hashCode() + ", toString()=" + super.toString() + "]";
 	}
-	
-	
 
 }

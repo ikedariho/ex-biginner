@@ -30,8 +30,8 @@ public class Exam02Contoroller {
 		return "exam02-result";
 	}
 	
-	@RequestMapping("/add2")
-	public String add2() {
+	@RequestMapping("/topage")
+	public String topage() {
 		return "exam02-result2";
 	}
 

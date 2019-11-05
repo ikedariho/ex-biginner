@@ -1,0 +1,14 @@
+Exam2-2
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   src/main/java/com/example/Controller/Exam02Contoroller.java
+#	new file:   src/main/java/com/example/Controller/Exam03Controller.java
+#	modified:   src/main/resources/templates/exam02-result.html
+#	new file:   src/main/resources/templates/exam03-result.html
+#	new file:   src/main/resources/templates/exam03.html
+#

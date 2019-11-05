@@ -20,13 +20,11 @@ public class Exam03Controller {
 	@RequestMapping("/buy")
 	public String buy(int num1, int num2, int num3) {
 		int taxEx = num1 + num2 + num3;
-		int taxIn = (int) ((num1 + num2 + num3) * 1.10);
+		int taxIn = (int) (taxEx * 1.10);
 		application.setAttribute("taxEx", taxEx);
 		application.setAttribute("taxIn", taxIn);
-		
+
 		return "exam03-result";
 	}
-	
-	
 
 }
